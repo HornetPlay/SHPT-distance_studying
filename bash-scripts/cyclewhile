@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo -e "cycle WHILE : \n"
+
+count=1
+while [ $count -lt 6 ]
+do
+echo $count
+count=$[ $count + 1 ]
+done
+
+echo -e "\n =============== \n"
+
+
+
+count2=1
+while [ $count2 -lt 9 ]
+do
+if [ $count2 = 3 ]
+then
+break
+fi
+echo $count2
+count2=$[ $count2 + 1 ]
+
+done
+
